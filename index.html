@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <img class="imglogo" src="./img/logo.svg" alt="">
+            <ul class="navmenu">
+                <li class="nav-item"><a href="./pages/sobre.html" class="nav-link">SOBRE</a></li>
+            </ul>
+
+            <div class="hamburguer">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div id="sucessoLOGIN" class="acerto"> Cadastro Realizado</div>
+        <form id="formularioEntrar"> 
+            <div id="error-required-senhalogin" class="error">Campo obrigatório</div>
+            <div id="error-required-senhalogin8" class="error">Senha deve ter no mínimo 8 caracteres </div>
+            <div id="error-required-emaillogin" class="error"> Insira um e-mail ou telefone </div>
+            <div id="error-required-emailvalidoentrar" class="error"> E-mail ou número tefone inválidos</div>
+            <div id="error-required-telefonevalidoentrar" class="error"> E-mail ou tefone inválidos</div>
+            <input type="text" id="emaillogin" placeholder="Email ou Telefone">
+
+
+            <input type="password" id="senhalogin" placeholder="Digite sua senha" maxlength="8">
+            <button id="btnSend">Entre ou cadastre-se</button>
+            <p class="ajuda">Não conseguiu <a href="./pages/sobre.html">entrar ou cadastrar?</a></p>
+        </form>
+    </section>
+    <!-- <button id="darkmode" onclick="darkmode()">Modo Escuro</button> -->
+    <script src="./javascript/entrar.js"></script>
+    <script src="./javascript/hamburguer.js"></script>
+</body>
+
+</html>

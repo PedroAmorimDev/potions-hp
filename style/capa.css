@@ -1,0 +1,64 @@
+/* body{
+    background-image: url(../img/capa1.png);
+    background-repeat: no-repeat;
+} */
+.next {
+    background-color: #000;
+    color: #fff;
+    margin: 20px;
+    padding: 20px ;
+    border-radius: 30px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transition: 1s;
+    translate: 1s;
+}
+.next:hover{
+    color: #f2b543;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    padding: 0%;
+}
+
+img {
+    max-width: auto;
+    max-height: auto;
+    padding: auto;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    /* background-color: #f4c061; */
+    background-image: url(https://img.freepik.com/premium-photo/beige-vintage-old-paper-background-paper-texture-roughness-stripes_213524-312.jpg?w=1380);
+    background-repeat: no-repeat;
+background-size: 100% 120%;
+
+}
+
+html{
+    text-align: center;
+}
+
+footer {
+    position: relative;
+}
+
+.dentrodesi{
+    color: #fff;
+}
+*{
+    border: 0;
+    margin: 0   ;
+}
+main{
+    text-align: center;
+}

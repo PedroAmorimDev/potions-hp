@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container{
+   
+    width: 100%;
+    text-align: left;
+}
+.harry{
+    width: 300px;
+}
+
+.duascaixasflex{
+    display: flex;
+    margin-top: 100px;
+}
+
+body{
+    background-color: #082f82;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+@media (max-width:700px) {
+    .container{
+        flex-direction: column;
+    }
+}
+
+.texto{
+    font-size: 20px;
+    width: 100%;
+    color: #fff;
+    height: auto;
+}
+.frase{
+    font-family: "Whisper", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+hr{
+    margin: 10px 0px;
+}
+
+body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+/* gap: 300px; */
+}
+
+main{
+display: flex;
+margin-top:400px;
+
+margin-bottom: 200px;}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(https://wallpapercave.com/wp/wp4786227.jpg);
+}
+.container{
+    width: 50%;
+    text-align: center;
+}
+
+main{
+    display: grid;
+    place-items: center;
+    align-items: center;
+}
